@@ -1,0 +1,42 @@
+body {
+    font-family: "IBM Plex Mono", serif;
+}
+
+body > header > nav, #home {
+    background: #DDBA88;
+    padding: 20px 0;
+}
+
+.imghome {
+    padding-left: 200px;
+}
+
+.orcamento {
+    background-color: #986314;
+    color: white;
+}
+
+.email-button 
+{
+display: inline-block;
+
+padding: 10px 20px;
+
+background-color: #007bff;
+
+color: #fff;
+
+text-decoration: none;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+transition: background-color 0.3s ease;
+}
+
+
+.email-button:hover 
+{
+background-color: #0056b3;
+}
