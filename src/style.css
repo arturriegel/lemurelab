@@ -4,11 +4,11 @@ body {
 
 body > header > nav, #home {
     background: #DDBA88;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .imghome {
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
 .orcamento {
@@ -39,4 +39,21 @@ transition: background-color 0.3s ease;
 .email-button:hover 
 {
 background-color: #0056b3;
+}
+
+.card-body {
+    background: #DDBA88;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.img-clientes {
+    display: flex;
+    width: 175px;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+
+.txt-center {
+    text-align: center;
 }
